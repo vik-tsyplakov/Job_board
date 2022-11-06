@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      proxima: ["Proxima Nova"],
+      roboto: ["Roboto"],
+    },
     screens: {
       sm: "480px",
       md: "768px",
