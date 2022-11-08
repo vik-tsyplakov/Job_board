@@ -2,19 +2,5 @@
 
 .App {
   text-align: center;
-}
-
-.App-header {
-  background-color: rgb(119, 136, 159);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  background: #e6e9f2;
 }
