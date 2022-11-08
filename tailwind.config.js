@@ -6,8 +6,11 @@ module.exports = {
       proxima: ["Proxima Nova"],
       roboto: ["Roboto"],
     },
+    container: {
+      center: true,
+    },
     screens: {
-      sm: "480px",
+      sm: "414px",
       md: "768px",
       lg: "976px",
       xl: "1440px",
@@ -22,7 +25,6 @@ module.exports = {
       barsmall:
         "0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2)",
     },
-
     extend: {},
   },
   plugins: [],

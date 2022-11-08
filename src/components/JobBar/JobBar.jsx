@@ -1,9 +1,12 @@
 import React from "react";
+import Content from "./Content";
 
 export default function JobBar() {
   return (
-    <div className="flex bg-[#FFFFFF] rounded-lg px-[16px] py-[24px] h-[164px] mx-[9px] mb-[8px] sm:mx-[18px] items-center sm:shadow-barlarge shadow-barsmall">
-      JobBar ggggggggggggggggggggggggggggggggggggg
+    <div className="flex max-w-[1400px] sm:h-[164px] h-[206px] sm:bg-[#FFFFFF] bg-[#EFF0F5] rounded-lg px-[16px] py-[24px] mb-[8px] items-center sm:shadow-barlarge shadow-barsmall justify-between">
+      <div>JobBar ggggggggggggggggggggggggggggggggggggg</div>
+      <Content />
+      <div>2222222</div>
     </div>
   );
 }
