@@ -7,8 +7,10 @@ let location = "Vienna, Austria";
 
 export default function MainContent() {
   return (
-    <div>
-      <h2>{title}</h2>
+    <div className="opacity-[.8]">
+      <h2 className="text-[#3A4562] font-proxima text-[20px] font-bold	not-italic leading-[25px] tracking-[-0.625px]">
+        {title}
+      </h2>
       <p>Department name • {department}</p>
       <div flex>
         <img
