@@ -28,3 +28,13 @@ body {
     height: 66px;
   }
 }
+
+.bookmark {
+}
+
+.bookmark:hover {
+  background-image: url(/src/img/bookmark_active.svg);
+}
+.bookmark:checked {
+  background-image: url(/src/img/bookmark.svg);
+}
