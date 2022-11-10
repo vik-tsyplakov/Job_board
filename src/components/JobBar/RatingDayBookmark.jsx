@@ -5,13 +5,12 @@ import Bookmark from "./Bookmark";
 
 export default function RatingDayBookmark() {
   return (
-    <div className="flex">
+    <div className="flex h-[116px]">
       <Rating />
-      <div className="block">
+      <div className="block content-start">
         <div className="flex justify-end">
           <Bookmark />
         </div>
-
         <PublicationDate />
       </div>
     </div>
