@@ -5,10 +5,12 @@ let img =
 
 export default function Logo() {
   return (
-    <div>
-      <span className="circle-image">
-        <img src={img} alt="hospital" />
-      </span>
+    <div className="mr-[19px] md:mr-[26px] md:h-[66]  mt-0 w-[85px] h-[85px]	">
+      <div className="circle-image">
+        <a href="#">
+          <img src={img} alt="hospital" />
+        </a>
+      </div>
     </div>
   );
 }

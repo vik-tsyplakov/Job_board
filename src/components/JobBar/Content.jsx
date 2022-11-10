@@ -5,7 +5,7 @@ import MainContent from "./MainContent";
 export default function Content() {
   return (
     <>
-      <div className="flex">
+      <div className="flex my-auto ">
         <Logo />
         <MainContent />
       </div>

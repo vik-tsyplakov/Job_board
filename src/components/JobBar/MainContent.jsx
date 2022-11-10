@@ -7,18 +7,22 @@ let location = "Vienna, Austria";
 
 export default function MainContent() {
   return (
-    <div className="opacity-[.8]">
-      <h2 className="text-[#3A4562] font-proxima text-[20px] font-bold	not-italic leading-[25px] tracking-[-0.625px]">
-        {title}
+    <div className="opacity-[.8] text-left max-w-[712px]">
+      <h2 className="text-[#3A4562] font-proxima text-[20px] font-bold	not-italic leading-[25px] tracking-[-0.625px] hover:underline">
+        <a href="#">{title}</a>
       </h2>
-      <p>Department name • {department}</p>
+      <p className="font-proxima text-[16px] font-normal tracking-[.23619px] leading-[25px] not-italic text-[#878D9D]">
+        Department name • {department}
+      </p>
       <div flex>
         <img
           className="mr-[8px] inline-block"
           src={imgLocation}
           alt="location"
         />
-        <p className="inline-block">{location}</p>
+        <p className="inline-block font-proxima text-[16px] font-normal tracking-[.23619px] leading-[25px] not-italic text-[#878D9D]">
+          {location}
+        </p>
       </div>
     </div>
   );
