@@ -1,5 +1,4 @@
 import React from "react";
-import imgBookmark from "../../img/bookmark.svg";
 import { useState } from "react";
 
 export default function Bookmark() {

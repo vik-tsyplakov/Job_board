@@ -11,7 +11,9 @@ export default function RatingDayBookmark() {
         <div className="flex justify-end">
           <Bookmark />
         </div>
-        <PublicationDate />
+        <div className="items-end mt-[55px]">
+          <PublicationDate />
+        </div>
       </div>
     </div>
   );
