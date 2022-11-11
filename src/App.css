@@ -37,9 +37,10 @@ input[type="checkbox"] {
 }
 /* Stars rating */
 
-.on {
-  color: #000;
+.on svg path {
+  fill: #38415d;
 }
-.off {
-  color: #ccc;
+.off svg path {
+  fill: #f8f8f8d1;
+  stroke: #38415d;
 }
