@@ -11,7 +11,7 @@ export default function Content() {
           <Logo />
         </div>
         <div className="block">
-          <div className="smmd:hidden flex	">
+          <div className="smmd:hidden flex	justify-between	">
             <RatingDayBookmark />
           </div>
           <div className="">
