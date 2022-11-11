@@ -10,7 +10,7 @@ export default function RatingDayBookmark() {
         <Rating />
       </div>
       <div className="block content-start">
-        <div className="flex justify-end">
+        <div className="justify-end smmd:flex hidden">
           <Bookmark />
         </div>
         <div className="items-end mt-[55px]">
