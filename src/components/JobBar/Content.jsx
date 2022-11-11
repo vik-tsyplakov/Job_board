@@ -6,7 +6,9 @@ export default function Content() {
   return (
     <>
       <div className="flex my-auto ">
-        <Logo />
+        <div className="mr-[19px] lg:mr-[26px] mt-0">
+          <Logo />
+        </div>
         <MainContent />
       </div>
     </>

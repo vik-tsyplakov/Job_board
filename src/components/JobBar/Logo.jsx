@@ -5,9 +5,9 @@ let img =
 
 export default function Logo() {
   return (
-    <div className="mr-[19px] md:mr-[26px] md:h-[66]  mt-0 w-[85px] h-[85px]	">
+    <div className="md:h-[85px] md:w-[85px] w-[66px] h-[66px]	">
       <div className="circle-image">
-        <a href="#">
+        <a href="/">
           <img src={img} alt="hospital" />
         </a>
       </div>

@@ -28,12 +28,17 @@ body {
     height: 66px;
   }
 }
-
 /* Bookmark Checkbox */
 input[type="checkbox"] {
   overflow: hidden;
   white-space: nowrap;
   display: none;
+}
+@media (max-width: 768px) {
+  .bookmark svg {
+    height: 28px;
+    width: 28px;
+  }
 }
 /* Stars rating */
 .on svg path {
@@ -42,4 +47,10 @@ input[type="checkbox"] {
 .off svg path {
   fill: #ffffffe4;
   stroke: #38415d;
+}
+@media (max-width: 976px) {
+  .star svg {
+    height: 14px;
+    width: 15px;
+  }
 }

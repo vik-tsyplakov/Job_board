@@ -6,7 +6,7 @@ import Bookmark from "./Bookmark";
 export default function RatingDayBookmark() {
   return (
     <div className="flex h-[116px]">
-      <div className="min-w-[96px] h-[18px] ml-[5px] mr-[32px] self-center	">
+      <div className="min-w-[96px] lg:h-[18px] h-[16px] ml-[5px] lg:mr-[32px] mr-[10px] self-center	">
         <Rating />
       </div>
       <div className="block content-start">

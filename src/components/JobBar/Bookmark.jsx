@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 
 export default function Bookmark() {
-  const [isChecked, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState(true);
 
   return (
     <div className="w-[32px]">
-      <label>
+      <label className="bookmark">
         <input
           type="checkbox"
           onChange={() => {
