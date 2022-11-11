@@ -1,5 +1,6 @@
 import "./App.css";
 import JobBar from "./components/JobBar/JobBar";
+import Pagination from "./components/Pagination/Pagination";
 
 function App() {
   return (

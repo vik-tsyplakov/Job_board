@@ -6,12 +6,12 @@ import RatingDayBookmark from "./RatingDayBookmark";
 export default function Content() {
   return (
     <>
-      <div className="flex my-auto ">
-        <div className="mr-[19px] lg:mr-[26px] mt-[32px] smmd:mt-0 ">
+      <div className="flex my-auto">
+        <div className="mr-[19px] lg:mr-[26px] mt-[32px] smmd:mt-0">
           <Logo />
         </div>
         <div className="block">
-          <div className="smmd:hidden flex	justify-between	">
+          <div className="smmd:hidden flex justify-between">
             <RatingDayBookmark />
           </div>
           <div className="">

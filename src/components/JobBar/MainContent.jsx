@@ -14,7 +14,7 @@ export default function MainContent() {
       <p className="font-proxima lg:text-[16px] sm:text-[14px] text-[16px] font-normal tracking-[.23619px] lg:leading-[25px] sm:leading-[15px] leading-[15px] not-italic text-[#878D9D]">
         Department name • {department}
       </p>
-      <div flex>
+      <div>
         <img
           className="mr-[8px] inline-block"
           src={imgLocation}
