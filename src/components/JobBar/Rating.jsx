@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Rating() {
   const [rating, setRating] = useState(0);
-  const [hover, setHover] = useState(0);
+  const [hover, setHover] = useState(5);
 
   return (
     <div className="star-rating">

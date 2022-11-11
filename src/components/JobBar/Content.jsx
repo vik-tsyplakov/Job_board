@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import MainContent from "./MainContent";
+import RatingDayBookmark from "./RatingDayBookmark";
 
 export default function Content() {
   return (
@@ -9,7 +10,14 @@ export default function Content() {
         <div className="mr-[19px] lg:mr-[26px] mt-0">
           <Logo />
         </div>
-        <MainContent />
+        <div className="block">
+          <div className="smmd:hidden flex	">
+            <RatingDayBookmark />
+          </div>
+          <div className="">
+            <MainContent />
+          </div>
+        </div>
       </div>
     </>
   );
