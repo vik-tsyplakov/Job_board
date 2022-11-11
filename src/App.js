@@ -18,6 +18,9 @@ function App() {
         <JobBar />
         <JobBar />
         <JobBar />
+        <div className="container mx-auto">
+          <Pagination />
+        </div>
       </div>
     </div>
   );
