@@ -7,7 +7,7 @@ let location = "Vienna, Austria";
 
 export default function MainContent() {
   return (
-    <div className="opacity-[.8] text-left max-w-[712px]">
+    <div className="opacity-[.8] text-left max-w-[737px]">
       <h2 className="text-[#3A4562] font-proxima text-[20px] font-bold	not-italic leading-[25px] tracking-[-0.625px] hover:underline">
         <a href="#">{title}</a>
       </h2>

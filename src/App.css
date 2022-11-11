@@ -36,11 +36,10 @@ input[type="checkbox"] {
   display: none;
 }
 /* Stars rating */
-
 .on svg path {
   fill: #38415d;
 }
 .off svg path {
-  fill: #f8f8f8d1;
+  fill: #ffffffe4;
   stroke: #38415d;
 }
