@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 
 export default function Pagination() {
@@ -31,7 +31,7 @@ export default function Pagination() {
               <span className="sr-only">Previous</span>
               <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
             </a>
-            {/* Current: "z-10 bg-indigo-50 border-indigo-500 text-indigo-600", Default: "bg-white border-gray-300 text-gray-500 hover:bg-gray-50" */}
+           
             <a
               href="/"
               aria-current="page"
@@ -85,3 +85,4 @@ export default function Pagination() {
     </div>
   );
 }
+*/

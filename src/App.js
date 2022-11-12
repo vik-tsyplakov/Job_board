@@ -1,6 +1,6 @@
 import "./App.css";
 import JobBar from "./components/JobBar/JobBar";
-import Pagination from "./components/Pagination/Pagination";
+//import PaginatedItems from "./components/Pagination/PaginatedItems";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <JobBar />
         <JobBar />
         <JobBar />
-        <div className="container mx-auto">
-          <Pagination />
+        <div className="container mx-auto" id="container">
+          {/*<PaginatedItems />*/}
         </div>
       </div>
     </div>
