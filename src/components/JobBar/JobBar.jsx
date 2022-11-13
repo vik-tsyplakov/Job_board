@@ -10,6 +10,7 @@ class JobBar extends React.Component {
       error: null,
       isLoaded: false,
       items: [],
+      title: null,
     };
   }
   componentDidMount() {
@@ -49,7 +50,7 @@ class JobBar extends React.Component {
                 <li key={item.id}>
                   <div className="block smmd:flex max-w-[1400px] sm:h-[164px] h-[206px] sm:bg-[#FFFFFF] bg-[#EFF0F5] rounded-lg px-[16px] py-[24px] mb-[8px] items-center sm:shadow-barlarge shadow-barsmall justify-between">
                     <div className="">
-                      <Content />
+                      <Content title={item.title} />
                     </div>
                     <div className="smmd:block hidden">
                       <RatingDayBookmark />
