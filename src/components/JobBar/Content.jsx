@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import MainContent from "./MainContent";
 import RatingDayBookmark from "./RatingDayBookmark";
 
-export default function Content({ title }, { name }) {
+export default function Content(props) {
   return (
     <>
       <div className="flex my-auto">
@@ -15,7 +15,7 @@ export default function Content({ title }, { name }) {
             <RatingDayBookmark />
           </div>
           <div className="">
-            <MainContent title={title} name={name} />
+            <MainContent title={props.title} name={props.name} />
           </div>
         </div>
       </div>
