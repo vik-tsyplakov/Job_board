@@ -1,6 +1,5 @@
 import "./App.css";
 import JobBar from "./components/JobBar/JobBar";
-//import ApiResult from "./ApiResult";
 
 //import PaginatedItems from "./components/Pagination/PaginatedItems";
 
@@ -9,7 +8,6 @@ function App() {
     <div className="App pt-[29px] h-full w-full">
       <div className="container mx-auto max-w-[1436px] px-[9px] sm:px-[18px]">
         <JobBar />
-        {/*<ApiResult />*/}
         <div className="container mx-auto" id="container">
           {/*<PaginatedItems />*/}
         </div>
