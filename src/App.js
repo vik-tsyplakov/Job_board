@@ -1,7 +1,9 @@
 import "./App.css";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import JobBar from "./components/JobBar/JobBar";
+import JobDetail from "./components/JobDetail/JobDetail";
 
 //import PaginatedItems from "./components/Pagination/PaginatedItems";
 
@@ -34,21 +36,26 @@ function App() {
     return <div>Loading...</div>;
   } else {
     return (
-      <div className="App pt-[29px] h-full w-full">
-        <div className="container mx-auto max-w-[1436px] px-[9px] sm:px-[18px]">
-          <ul>
-            {items.map((item) => (
-              <li key={item.id} name={item.name}>
-                <JobBar name={item.name} title={item.title} />
-              </li>
-            ))}
-          </ul>
-          {/*<div className="container mx-auto" id="container">
-            
+      <>
+        <div className="App app-wrapper pt-[29px] h-full w-full">
+          <div className="container mx-auto max-w-[1436px] px-[9px] sm:px-[18px]">
+            <ul>
+              {items.map((item) => (
+                <li key={item.id} name={item.name}>
+                  <JobBar name={item.name} title={item.title} />
+                </li>
+              ))}
+            </ul>
+            {/*<div className="container mx-auto" id="container">
             <PaginatedItems />
             </div>*/}
+
+            <Routes>
+              <Route path="detail" element={<JobDetail />} />
+            </Routes>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 }
