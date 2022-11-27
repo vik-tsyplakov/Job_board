@@ -34,8 +34,12 @@ export default function JobBarMainPage() {
     return (
       <ul>
         {items.map((item) => (
-          <li key={item.id} name={item.name}>
-            <JobBar name={item.name} title={item.title} />
+          <li key={item.id} name={item.name} img={item.pictures[0]}>
+            <JobBar
+              name={item.name}
+              title={item.title}
+              img={item.pictures[0]}
+            />
           </li>
         ))}
       </ul>

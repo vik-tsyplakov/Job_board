@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import imgLocation from "../../img/location.svg";
 
-//const setActive = ({ isActive }) => (isActive ? "active-link" : "");
 let location = "Vienna, Austria";
 
 export default function MainContent(props) {

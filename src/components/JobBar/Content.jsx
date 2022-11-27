@@ -8,7 +8,7 @@ export default function Content(props) {
     <>
       <div className="flex my-auto">
         <div className="mr-[19px] lg:mr-[26px] mt-[32px] smmd:mt-0">
-          <Logo />
+          <Logo img={props.img} />
         </div>
         <div className="block">
           <div className="smmd:hidden flex justify-between">
