@@ -8,18 +8,14 @@ import JobDetail from "./components/JobDetail/JobDetail";
 function App() {
   return (
     <>
-      <div className="App app-wrapper pt-[29px] h-full w-full">
-        <div className="container mx-auto max-w-[1436px] px-[9px] sm:px-[18px]">
-          {/*<div className="container mx-auto" id="container">
+      {/*<div className="container mx-auto" id="container">
             <PaginatedItems />
             </div>*/}
 
-          <Routes>
-            <Route path="/" element={<JobBarMainPage />} />
-            <Route path="detail" element={<JobDetail />} />
-          </Routes>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<JobBarMainPage />} />
+        <Route path="detail" element={<JobDetail />} />
+      </Routes>
     </>
   );
 }

@@ -32,17 +32,21 @@ export default function JobBarMainPage() {
     return <div>Loading...</div>;
   } else {
     return (
-      <ul>
-        {items.map((item) => (
-          <li key={item.id} name={item.name} img={item.pictures[0]}>
-            <JobBar
-              name={item.name}
-              title={item.title}
-              img={item.pictures[0]}
-            />
-          </li>
-        ))}
-      </ul>
+      <div className="App app-wrapper pt-[29px] h-full w-full">
+        <div className="container mx-auto max-w-[1436px] px-[9px] sm:px-[18px]">
+          <ul>
+            {items.map((item) => (
+              <li key={item.id} name={item.name} img={item.pictures[0]}>
+                <JobBar
+                  name={item.name}
+                  title={item.title}
+                  img={item.pictures[0]}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     );
   }
 }
