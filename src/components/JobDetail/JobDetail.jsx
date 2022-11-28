@@ -41,7 +41,11 @@ export default function JobDetail(props) {
               <li key={item.id} name={item.name} img={item.pictures[0]}>
                 <div className="container block lg:flex max-w-[1377px] h-full px-[15px] pt-[24px] pb-[37px] justify-between  ">
                   <JobDetailMain />
-                  <JobDetailContact name={item.name} />
+                  <JobDetailContact
+                    name={item.name}
+                    address={item.address}
+                    email={item.email}
+                  />
                 </div>
               </li>
             ))}
