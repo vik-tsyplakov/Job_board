@@ -45,6 +45,7 @@ export default function JobDetail(props) {
                     name={item.name}
                     address={item.address}
                     email={item.email}
+                    phone={item.phone}
                   />
                 </div>
               </li>
