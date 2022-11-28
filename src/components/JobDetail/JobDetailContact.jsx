@@ -2,7 +2,7 @@ import React from "react";
 
 export default function JobDetailContact(props) {
   return (
-    <div className=" flex justify-center max-w-[372px] sm:mx-auto">
+    <div className=" flex justify-center max-w-[372px] mx-auto lg:mr-0">
       <div className="h-[436px] bg-[#2A3047] rounded-lg mt-[21px] lg:mt-[0px] ">
         <p>Department name. University Hospital Giessen. {props.name}</p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error labore
