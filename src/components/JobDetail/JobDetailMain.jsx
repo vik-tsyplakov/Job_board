@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import ButtonFunctional from "./../src/../ButtonsAndOther/ButtonFunctional";
+import PublicationDate from "./../src/../JobBar/PublicationDate";
 import Salary from "./Salary";
 
 export default function JobDetailMain(props) {
@@ -18,9 +19,11 @@ export default function JobDetailMain(props) {
             <div className="title max-w-[500px] tracking-[-0.75px] text-[#3A4562] leading-[30px] text-[24px] font-bold">
               <h1>{props.title}</h1>
             </div>
-            <div className="flex">
-              <div className="posted"></div>
-              <div className="salary">
+            <div className="flex justify-between items-center">
+              <div className="posted sm:mt-[7px] mt-[0px] ml-[2px]">
+                <PublicationDate />
+              </div>
+              <div className="salary block sm:hidden">
                 <Salary salary={props.salary} />
               </div>
             </div>
