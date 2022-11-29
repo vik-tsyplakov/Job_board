@@ -1,4 +1,5 @@
 import React from "react";
+import arrowLeftNavigate from "../../img/arrowLeftNavigate.svg";
 
 export default function ButtonNavigateLeft(props) {
   return (

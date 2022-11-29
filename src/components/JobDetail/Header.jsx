@@ -10,11 +10,11 @@ export default function Header() {
           Job Details
         </h2>
         <div className="line max-w-[683px] h-[1px] mt-[8px] mb-[12px] bg-[#3A4562] mix-blend-normal opacity-[.13]"></div>
-        <div className="save-and-share text-center flex pt-[2px] ">
+        <div className="save-and-share text-center flex pt-[2px] smmd:mb-[0px] mb-[32px]">
           <div className="save text-center ">
             <label className="bookmark flex cursor-pointer	">
               <Bookmark />
-              <p className="font-roboto sm:text-[18px] text-[16px] text-[#3A4562] tracking-[-0.5625px] leading-[24px] pt-[2px]">
+              <p className="font-roboto sm:text-[18px] text-[16px] text-[#3A4562] tracking-[-0.5625px] leading-[24px] pt-[2px] whitespace-nowrap">
                 Save to my list
               </p>
             </label>

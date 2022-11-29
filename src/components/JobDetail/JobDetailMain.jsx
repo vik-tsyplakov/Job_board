@@ -1,15 +1,18 @@
 import React from "react";
 import Header from "./Header";
+import ButtonFunctional from "./../src/../ButtonsAndOther/ButtonFunctional";
 
-import arrowLeftNavigate from "../../img/arrowLeftNavigate.svg";
-
-export default function JobDetailMain() {
+export default function JobDetailMain(props) {
   return (
     <div className="lg:max-w-[814px] max-w-full lg:mr-[20px]">
-      <section className="block1 px-[10px] ">
+      <section className="header px-[10px] ">
         <Header />
       </section>
-
+      <section className="block1 px-[10px]">
+        <div className="mt-[39px] mb-[32px] lg:block hidden">
+          <ButtonFunctional text="Apply now" />
+        </div>
+      </section>
       <p className="text-rose-400">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
         asperiores doloremque natus ea sequi nostrum earum, soluta, fugit
