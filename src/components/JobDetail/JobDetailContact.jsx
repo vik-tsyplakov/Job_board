@@ -5,7 +5,7 @@ export default function JobDetailContact(props) {
   let email = `mailto:${props.email}`;
   let phone = `tel:${props.phone}`;
   return (
-    <div className=" flex justify-center max-w-[372px] mx-auto lg:mr-0">
+    <div className=" flex justify-center sm:max-w-[372px] lg:min-w-[402px] mx-auto lg:mr-0">
       <div className="h-[436px] bg-[#2A3047] rounded-lg mt-[21px] lg:mt-[0px] ">
         <p className="pt-[31px] sm:px-[62px] px-[50px] mb-[14.5px] sm:w-[372px] w-[300px] font-proxima text-[#E7EAF0] sm:text-[20px] text-[18px] font-bold sm:leading-[25px] leading-[19px] sm:tracking-[-0.625px] tracking-[0.23619px] ">
           Department name. <br /> {props.name}.
