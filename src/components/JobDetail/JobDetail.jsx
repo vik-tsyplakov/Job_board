@@ -40,7 +40,7 @@ export default function JobDetail(props) {
             {items.map((item) => (
               <li key={item.id} name={item.name}>
                 <div className="container block lg:flex max-w-[1377px] h-full px-[15px] sm:pt-[56px] pt-[24px] pb-[37px] justify-between  ">
-                  <JobDetailMain />
+                  <JobDetailMain salary={item.salary} title={item.title} />
                   <JobDetailContact
                     name={item.name}
                     address={item.address}
