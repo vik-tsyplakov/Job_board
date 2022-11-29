@@ -6,7 +6,7 @@ export default function Bookmark() {
 
   return (
     <div className="w-[32px]">
-      <label className="bookmark">
+      <label className="bookmark cursor-pointer	">
         <input
           type="checkbox"
           onChange={() => {
