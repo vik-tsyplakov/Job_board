@@ -1,6 +1,7 @@
 import React from "react";
-
 import Header from "./Header";
+
+import arrowLeftNavigate from "../../img/arrowLeftNavigate.svg";
 
 export default function JobDetailMain() {
   return (
@@ -8,6 +9,7 @@ export default function JobDetailMain() {
       <section className="block1 px-[10px] ">
         <Header />
       </section>
+
       <p className="text-rose-400">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
         asperiores doloremque natus ea sequi nostrum earum, soluta, fugit
