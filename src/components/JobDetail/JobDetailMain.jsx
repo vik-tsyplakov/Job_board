@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Block1 from "./Block1";
+import Block2 from "./Block2";
+import Block3 from "./Block3";
 
 export default function JobDetailMain(props) {
   return (
@@ -8,9 +10,14 @@ export default function JobDetailMain(props) {
       <section className="header px-[10px] ">
         <Header />
       </section>
-      <section className="block1 px-[10px]">
+      <section className="block1And2 px-[10px]">
         <Block1 salary={props.salary} title={props.title} />
+        <Block2 description={props.description} />
       </section>
+      <section className="block3 ">
+        <Block3 />
+      </section>
+      <br />
       <p className="text-rose-400">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
         asperiores doloremque natus ea sequi nostrum earum, soluta, fugit
