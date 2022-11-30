@@ -64,3 +64,6 @@ input[type="checkbox"] {
   margin-bottom: 1rem;
 }
 /* check*/
+.custom-li li {
+  list-style-image: url(../src/img/liBullet.svg);
+}

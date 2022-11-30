@@ -9,7 +9,7 @@ export default function Block3() {
       <h3 className="mt-[10px] px-[10px] text-[#3A4562] font-roboto text-[18px] leading-[24px] trucking-[-0.5625px]">
         Our physicians enjoy a wide range of benefits, including:
       </h3>
-      <ul className="list-disc	 text-[#3A4562] font-roboto text-[18px] leading-[24px] trucking-[-0.5625px]">
+      <ul className="pl-[10px] custom-li list-disc text-[#3A4562] font-roboto text-[18px] leading-[24px] trucking-[-0.5625px]">
         <li>Very competitive compensation package with bonuses</li>
         <li>Medical, Dental, and Vision Insurance</li>
         <li>Occurrence-based Malpractice Coverage</li>

@@ -14,18 +14,9 @@ export default function JobDetailMain(props) {
         <Block1 salary={props.salary} title={props.title} />
         <Block2 description={props.description} />
       </section>
-      <section className="block3 ">
+      <section className="block3 sm:px-[10px] px-[10px]">
         <Block3 />
       </section>
-      <br />
-      <p className="text-rose-400">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
-        asperiores doloremque natus ea sequi nostrum earum, soluta, fugit
-        consectetur minima distinctio doloribus ad praesentium laborum
-        repudiandae cum delectus maiores iusto adipisci labore est fuga
-        laudantium, voluptatem aspernatur! Perspiciatis tempore suscipit sint
-        ab, aspernatur maiores architecto eligendi ullam! At, beatae iusto.
-      </p>
     </div>
   );
 }

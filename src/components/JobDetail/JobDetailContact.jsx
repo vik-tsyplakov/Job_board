@@ -6,7 +6,7 @@ export default function JobDetailContact(props) {
   let email = `mailto:${props.email}`;
   let phone = `tel:${props.phone}`;
   return (
-    <div className=" flex justify-center sm:max-w-[372px] lg:min-w-[402px] mx-auto lg:mr-0">
+    <div className=" flex justify-center sm:max-w-[372px] lg:min-w-[392px] mx-auto lg:mr-0">
       <div className="relative h-[436px] bg-[#2A3047] rounded-lg mt-[21px] lg:mt-[0px]">
         <img
           src={mapShape}
