@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonFunctional from "./../src/../ButtonsAndOther/ButtonFunctional";
 
 export default function Block3() {
   return (
@@ -17,6 +18,9 @@ export default function Block3() {
           Short-term and Long-term Disability Insurance and life insurance
         </li>
       </ul>
+      <div className="mt-[35px] pl-[10px]">
+        <ButtonFunctional text="Apply now" />
+      </div>
     </div>
   );
 }
