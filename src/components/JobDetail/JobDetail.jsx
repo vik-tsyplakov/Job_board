@@ -44,6 +44,7 @@ export default function JobDetail(props) {
                     salary={item.salary}
                     title={item.title}
                     description={item.description}
+                    benefits={item.benefits}
                   />
                   <JobDetailContact
                     name={item.name}
