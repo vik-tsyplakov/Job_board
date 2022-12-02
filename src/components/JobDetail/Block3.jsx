@@ -18,7 +18,7 @@ export default function Block3() {
           Short-term and Long-term Disability Insurance and life insurance
         </li>
       </ul>
-      <div className="mt-[35px] pl-[10px]">
+      <div className="mt-[35px] pl-[10px]  sm:justify-start justify-center sm:block flex">
         <ButtonFunctional text="Apply now" />
       </div>
     </div>
