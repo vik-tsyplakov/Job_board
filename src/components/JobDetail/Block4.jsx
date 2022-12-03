@@ -13,7 +13,7 @@ export default function Block4(props) {
           Employment type
         </p>
         <div className="tags flex justify-between ">
-          <TagBlue benefits={props.benefits} />
+          <TagBlue benefits={props.benefits} id={props.id} />
         </div>
       </div>
     </div>
