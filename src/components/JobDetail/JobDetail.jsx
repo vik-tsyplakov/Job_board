@@ -33,6 +33,7 @@ export default function JobDetail(props) {
   } else if (!isLoaded) {
     return <div>Loading...</div>;
   } else {
+    console.log(items);
     return (
       <>
         <div className="app-wrapper h-full w-full bg-[#FFFFFF]">
@@ -45,13 +46,13 @@ export default function JobDetail(props) {
                     title={item.title}
                     description={item.description}
                     benefits={item.benefits}
+                    employments={item.employment_type}
                   />
                   <JobDetailContact
                     name={item.name}
                     address={item.address}
                     email={item.email}
                     phone={item.phone}
-                    id={item.id}
                   />
                 </div>
               </li>
