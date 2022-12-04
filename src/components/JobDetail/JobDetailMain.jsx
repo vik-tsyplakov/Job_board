@@ -19,7 +19,11 @@ export default function JobDetailMain(props) {
         <Block3 />
       </section>
       <section className="block4 px-[10px] mt-[84px] ">
-        <Block4 benefits={props.benefits} employments={props.employments} />
+        <Block4
+          benefits={props.benefits}
+          employments={props.employments}
+          img={props.img}
+        />
       </section>
     </div>
   );

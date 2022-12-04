@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import "../src/../../JobDetail.css";
 import JobDetailContact from "./JobDetailContact";
 import JobDetailMain from "./JobDetailMain";
+import ButtonNavigateLeft from "./../src/../ButtonsAndOther/ButtonNavigateLeft";
 
 export default function JobDetail(props) {
   // Connection to API
@@ -33,27 +34,32 @@ export default function JobDetail(props) {
   } else if (!isLoaded) {
     return <div>Loading...</div>;
   } else {
-    console.log(items);
     return (
       <>
         <div className="app-wrapper h-full w-full bg-[#FFFFFF]">
           <ul>
             {items.map((item) => (
               <li key={item.id} name={item.name}>
-                <div className="container block lg:flex max-w-[1377px] h-full px-[15px] sm:pt-[56px] pt-[24px] pb-[37px] justify-between  ">
-                  <JobDetailMain
-                    salary={item.salary}
-                    title={item.title}
-                    description={item.description}
-                    benefits={item.benefits}
-                    employments={item.employment_type}
-                  />
-                  <JobDetailContact
-                    name={item.name}
-                    address={item.address}
-                    email={item.email}
-                    phone={item.phone}
-                  />
+                <div className="container max-w-[1377px] h-full px-[15px] sm:pt-[56px] pt-[24px] pb-[37px] justify-between  ">
+                  <div className="block lg:flex">
+                    <JobDetailMain
+                      salary={item.salary}
+                      title={item.title}
+                      description={item.description}
+                      benefits={item.benefits}
+                      employments={item.employment_type}
+                      img={item.pictures}
+                    />
+                    <JobDetailContact
+                      name={item.name}
+                      address={item.address}
+                      email={item.email}
+                      phone={item.phone}
+                    />
+                  </div>
+                  <div className="mt-[30px]">
+                    <ButtonNavigateLeft text="RETURN TO JOB BOARD" />
+                  </div>
                 </div>
               </li>
             ))}
