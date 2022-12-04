@@ -43,7 +43,7 @@ export default function Block4(props) {
             </div>
             <div className="h-[1px] max-w-[701px] bg-[#3A4562] mix-blend-normal hidden lg:block opacity-[.13] mt-[9px] mb-[15px]"></div>
             <div className="flex justify-center lg:justify-start">
-              <div className="max-w-[630px] flex justify-between mt-[15px] mb-[10px] overflow-x-scroll	">
+              <div className="max-w-[630px] flex justify-between mt-[15px] mb-[10px] overflow-x-scroll smmd:overflow-hidden	">
                 <img
                   className="object-cover w-auto mx-[5px]"
                   src={props.img[0]}
