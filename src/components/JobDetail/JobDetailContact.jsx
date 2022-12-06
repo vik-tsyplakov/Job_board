@@ -1,10 +1,12 @@
 import React from "react";
 import imgLocation from "../../img/location.svg";
 import mapShape from "../../img/mapShape.svg";
+import Map from "./Map";
 
 export default function JobDetailContact(props) {
   let email = `mailto:${props.email}`;
   let phone = `tel:${props.phone}`;
+
   return (
     <div className=" flex justify-center sm:max-w-[372px] lg:min-w-[392px] mx-auto lg:mr-0">
       <div className="relative h-[436px] bg-[#2A3047] rounded-lg mt-[21px] lg:mt-[0px]">
@@ -32,7 +34,9 @@ export default function JobDetailContact(props) {
         <p className="relative sm:px-[62px] px-[30px] text-[#E8EBF3] sm:text-[18px] text-[16px] tracking-[-0.5625px] leading-[24px] font-roboto">
           <a href={email}>{props.email}</a>
         </p>
-        <div className="relative h-[218px] sm:mt-[38px] mt-[49px] rounded-b-lg bg-[#ffa]"></div>
+        <div className="relative h-[218px] sm:mt-[38px] mt-[49px] rounded-b-lg bg-[#ffa]">
+          <Map />
+        </div>
       </div>
     </div>
   );
