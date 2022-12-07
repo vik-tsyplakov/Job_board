@@ -39,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "@geoapify/leaflet-address-search-plugin": "^1.0.1",
     "autoprefixer": "^10.4.13",
     "node-fetch": "^3.3.0",
     "postcss": "^8.4.18",

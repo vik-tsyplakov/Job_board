@@ -1,7 +1,7 @@
 import React from "react";
 import imgLocation from "../../img/location.svg";
 import mapShape from "../../img/mapShape.svg";
-import Map from "./Map";
+import MyMap from "./MyMap";
 
 export default function JobDetailContact(props) {
   let email = `mailto:${props.email}`;
@@ -35,7 +35,7 @@ export default function JobDetailContact(props) {
           <a href={email}>{props.email}</a>
         </p>
         <div className="relative h-[218px] sm:mt-[38px] mt-[49px] rounded-b-lg bg-[#ffa]">
-          <Map />
+          <MyMap />
         </div>
       </div>
     </div>
