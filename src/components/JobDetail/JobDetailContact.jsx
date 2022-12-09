@@ -1,7 +1,7 @@
 import React from "react";
 import imgLocation from "../../img/location.svg";
 import mapShape from "../../img/mapShape.svg";
-import Map from "./map.js";
+import Map from "./Map.jsx";
 
 export default function JobDetailContact(props) {
   let email = `mailto:${props.email}`;

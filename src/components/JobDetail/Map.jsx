@@ -15,10 +15,13 @@ export default function Map() {
     if (map.current) return; //stops map from intializing more than once
     map.current = new maplibregl.Map({
       container: mapContainer.current,
-      style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${API_KEY}`,
+      style: `https://api.maptiler.com/maps/50981751-1804-4552-b1dd-d5b896e32a92/style.json?key=${API_KEY}`,
       center: [lng, lat],
       zoom: zoom,
     });
+    new maplibregl.Marker({ color: "#FF0000" })
+      .setLngLat([139.7525, 35.6846])
+      .addTo(map.current);
   });
 
   return (
