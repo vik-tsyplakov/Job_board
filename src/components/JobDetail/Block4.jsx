@@ -45,17 +45,17 @@ export default function Block4(props) {
             <div className="flex justify-center lg:justify-start">
               <div className="max-w-[630px] flex justify-between mt-[15px] mb-[10px] overflow-x-scroll smmd:overflow-hidden	">
                 <img
-                  className="object-cover w-auto mx-[5px]"
+                  className="object-cover w-auto mx-[5px] rounded-[16px]"
                   src={props.img[0]}
                   alt="vacancy"
                 />
                 <img
-                  className="object-cover w-auto mx-[5px]"
+                  className="object-cover w-auto mx-[5px] rounded-[16px]"
                   src={props.img[1]}
                   alt="vacancy"
                 />
                 <img
-                  className="object-cover w-auto mx-[5px]"
+                  className="object-cover w-auto mx-[5px] rounded-[16px]"
                   src={props.img[2]}
                   alt="vacancy"
                 />
