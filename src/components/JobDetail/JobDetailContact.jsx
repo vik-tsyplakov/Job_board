@@ -35,7 +35,7 @@ export default function JobDetailContact(props) {
           <a href={email}>{props.email}</a>
         </p>
         <div className="relative h-[218px] sm:mt-[38px] mt-[49px] rounded-b-lg bg-[#ffa] ">
-          <Map />
+          <Map location={props.location} />
         </div>
       </div>
     </div>

@@ -3,11 +3,11 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./map.css";
 
-export default function Map() {
+export default function Map(props) {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng] = useState(139.753);
-  const [lat] = useState(35.6844);
+  const [lng] = useState(props.location.long);
+  const [lat] = useState(props.location.lat);
   const [zoom] = useState(14);
   const [API_KEY] = useState("vvPmfRdAW2R17tnkslnf");
 
@@ -20,7 +20,7 @@ export default function Map() {
       zoom: zoom,
     });
     new maplibregl.Marker({ color: "#FF0000" })
-      .setLngLat([139.7525, 35.6846])
+      .setLngLat([lng, lat])
       .addTo(map.current);
   });
 

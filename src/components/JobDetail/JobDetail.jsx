@@ -55,6 +55,7 @@ export default function JobDetail(props) {
                       address={item.address}
                       email={item.email}
                       phone={item.phone}
+                      location={item.location}
                     />
                   </div>
                   <div className="mt-[30px]">
