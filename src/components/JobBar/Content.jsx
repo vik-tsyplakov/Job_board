@@ -12,7 +12,7 @@ export default function Content(props) {
         </div>
         <div className="block">
           <div className="smmd:hidden flex justify-between">
-            <RatingDayBookmark />
+            <RatingDayBookmark createdAt={props.createdAt} />
           </div>
           <div className="">
             <MainContent title={props.title} name={props.name} />

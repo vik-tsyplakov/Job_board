@@ -6,10 +6,15 @@ function JobBar(props) {
   return (
     <div className="block smmd:flex max-w-[1400px] sm:h-[164px] h-[206px] sm:bg-[#FFFFFF] bg-[#EFF0F5] rounded-lg px-[16px] py-[24px] mb-[8px] items-center sm:shadow-barlarge shadow-barsmall justify-between">
       <div className="">
-        <Content name={props.name} title={props.title} img={props.img} />
+        <Content
+          name={props.name}
+          title={props.title}
+          img={props.img}
+          createdAt={props.createdAt}
+        />
       </div>
       <div className="smmd:block hidden">
-        <RatingDayBookmark />
+        <RatingDayBookmark createdAt={props.createdAt} />
       </div>
     </div>
   );
