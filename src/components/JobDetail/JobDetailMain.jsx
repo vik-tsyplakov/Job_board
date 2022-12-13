@@ -12,7 +12,11 @@ export default function JobDetailMain(props) {
         <Header />
       </section>
       <section className="block1And2 px-[10px]">
-        <Block1 salary={props.salary} title={props.title} />
+        <Block1
+          salary={props.salary}
+          title={props.title}
+          createdAt={props.createdAt}
+        />
         <Block2 description={props.description} />
       </section>
       <section className="block3 sm:px-[10px] px-[10px]">

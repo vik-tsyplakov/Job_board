@@ -49,6 +49,7 @@ export default function JobDetail(props) {
                       benefits={item.benefits}
                       employments={item.employment_type}
                       img={item.pictures}
+                      createdAt={item.createdAt}
                     />
                     <JobDetailContact
                       name={item.name}

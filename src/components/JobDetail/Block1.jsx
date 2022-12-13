@@ -16,7 +16,7 @@ export default function Block1(props) {
           </div>
           <div className="flex justify-between items-center mt-[15px] mb-[4px]">
             <div className="posted sm:mt-[7px] mt-[0px] ml-[2px]">
-              <PublicationDate />
+              <PublicationDate createdAt={props.createdAt} />
             </div>
             <div className="salary block smmd:hidden">
               <Salary salary={props.salary} />
