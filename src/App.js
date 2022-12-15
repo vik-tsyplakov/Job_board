@@ -5,8 +5,6 @@ import { useEffect } from "react";
 import JobBarMainPage from "./components/JobBar/JobBarMainPage";
 import JobDetail from "./components/JobDetail/JobDetail";
 
-//import PaginatedItems from "./components/Pagination/PaginatedItems";
-
 function App(props) {
   // Connection to API
   const [error, setError] = useState(null);
@@ -37,9 +35,6 @@ function App(props) {
   } else {
     return (
       <>
-        {/*<div className="container mx-auto" id="container">
-            <PaginatedItems />
-            </div>*/}
         <Routes>
           <Route path="/" element={<JobBarMainPage />} />
           <Route
