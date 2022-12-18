@@ -11,6 +11,7 @@ function JobBar(props) {
           title={props.title}
           img={props.img}
           createdAt={props.createdAt}
+          address={props.address}
         />
       </div>
       <div className="smmd:block hidden">

@@ -42,6 +42,7 @@ export default function JobBarMainPage() {
                   title={item.title}
                   img={item.pictures[0]}
                   createdAt={item.createdAt}
+                  address={item.address}
                 />
               </li>
             ))}

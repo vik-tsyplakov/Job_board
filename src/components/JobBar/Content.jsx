@@ -15,7 +15,11 @@ export default function Content(props) {
             <RatingDayBookmark createdAt={props.createdAt} />
           </div>
           <div className="">
-            <MainContent title={props.title} name={props.name} />
+            <MainContent
+              title={props.title}
+              name={props.name}
+              address={props.address}
+            />
           </div>
         </div>
       </div>
